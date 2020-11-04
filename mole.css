@@ -1,35 +1,39 @@
 /* whackable game space block-class */
 .wgs {
-    height: 241px;
-    position: relative;
-    width: 320px;
-    display: inline-block;
-    overflow: hidden;
+  height: 241px;
+  position: relative;
+  width: 320px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 /* whackable game space elements */
 .wgs__mole-head {
-    height: 178px;
-    position: absolute;
-    width: 188px;
-    left: 109px;
-    transition: margin-top .25s;
+  height: 178px;
+  position: absolute;
+  width: 188px;
+  left: 54px;
+  transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
-    height: 110px;
-    position: absolute;
-    width: 320px;
-    bottom: 0;
+  height: 110px;
+  position: absolute;
+  width: 320px;
+  bottom: 0;
 }
 
 .wgs__mole-head--hidden {
-    margin-top: 482px;
+  margin-top: 482px;
 }
 
 /* playing field outer div */
 .pf {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
+
+/* .win-message {
+
+} */
